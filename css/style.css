@@ -19,6 +19,7 @@ html{
   }
   p{
     font-family: "Roboto", "Akkurat", sans-serif;
+    line-height: 1.2em;
   }
   body > header > img{
   width: 20%;
