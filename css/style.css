@@ -157,16 +157,16 @@ html{
 
 /* start of contact.html */
 
-#contact{
+ #contact{
     z-index: 1;
-    position:relative;
-    top:35%;
+    position: relative;
+    top: 15%;
     color: #efeff1;
     margin: .5em;
     padding: .5em;
-    width:100%;
+    width: 100%;
     margin-right: 10px;
-    background-color: #84a3cc;
+    background-color: rgb(44, 106, 186, .8)
   }
   #contact > h1{
     color: #efeff1;
