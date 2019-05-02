@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
     <link rel="stylesheet" media="screen" href="css/normalize.css"/>
     <link rel="stylesheet" media="screen" href="css/style.css" />
-    <script async src="scripts.js" type="text/javascript"></script>
+    <script src="js/scripts.js"></script>
   </head>
   <body>
     <header>
@@ -27,40 +27,39 @@
     </nav>
     <section id="contact">
       <div class="row">
-            <form class="borderXS margin--auto padding-lg border-radius--sm">
-             <h2 class="text-center">Sign In</h2>
-             <label htmlFor="customerName" class="col-12">
-                    <strong class="font-b">Your Email:</strong>
-                          <input
-                            type="text"
-                            name="customerEmail"
-                            placeholder="Your Email"
-                            class="form-control"
-                            maxLength="50"
-                            minLength="3"
-                          />
+        <form class="borderXS margin--auto padding-lg border-radius--sm">
+          <h2 class="text-center">Sign In</h2>
+            <label for="customerName" class="col-12">
+              <strong class="font-b">Your Email:</strong>
+                <input type="text"
+                 id="customerName"
+                 name="customerEmail"
+                 placeholder="Your Email"
+                 class="form-control"
+                 maxLength="50"
+                 minLength="3"
+                 />
+               </label>
+               <br/>
+               <small class="pullRight"><a href="#">Forgot Password?</a></small>
+               <label for="customerEmail" class="col-12">
+                 <strong class="font-b">password:</strong>
+                   <input
+                    id="customerEmail"
+                    type="password"
+                    name="customerEmail"
+                    class="form-control"
+                    maxLength="50"
+                    minLength="3"
+                    />
                   </label>
-                  <br/>
-                  <small class="pullRight"><a href="#">Forgot Password?</a></small>
-                  <label htmlFor="customerName" class="col-12">
-                        <strong class="font-b">password:</strong>
-                              <input
-                                type="password"
-                                name="customerEmail"
-                                class="form-control"
-                                maxLength="50"
-                                minLength="3"
-                              />
-                      </label>
-                      <div class="col-12">
-                            <br />
-                            <button type="submit" class="btn--red">&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;</button>
-                          </div>
-                          <br class="clear" />
+                  <div class="col-12">
+                  <br />
+                  <button type="submit" class="btn--red">&nbsp;&nbsp;&nbsp;&nbsp;Login&nbsp;&nbsp;&nbsp;&nbsp;</button>
                   </div>
-            </form>
-
-      </div>
-    </section>
-  </body>
+                  <br class="clear" />
+ 				</form>
+			</div>
+		</section>
+	</body>
 </html>
