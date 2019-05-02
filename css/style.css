@@ -162,7 +162,7 @@ html{
     position: relative;
     top: 15%;
     color: #efeff1;
-    margin: .5em;
+    margin: 5%;
     padding: .5em;
     width: 100%;
     margin-right: 10px;
@@ -262,11 +262,8 @@ html{
   }
   .row {
   display: -ms-flexbox;
-  display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
   }
   .borderXS {
   border: 2px solid #d7d7d7;
@@ -289,9 +286,6 @@ html{
   display: inline-block;
   position: relative;
   margin-bottom: 30px;
-  }
-  .padding-lg{
-  padding: 10px 150px 20px 150px;
   }
   .pullRight {
   float: right;
